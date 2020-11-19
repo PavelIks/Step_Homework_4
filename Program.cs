@@ -12,21 +12,6 @@ namespace Step_Homework_4
             /*Задание 1. Пользователь вводит с клавиатуры символ. Определить, какой это символ: Буква,
             цифра, знак препинания или другое.*/
 
-            /*Console.Write("Введите символ: ");
-            var X = Console.ReadLine();
-            int result;
-            bool isNum = int.TryParse(X, out result);
-            if (isNum)
-            {
-                Console.WriteLine("Строка " + X + " - число!");
-                Console.WriteLine(result);
-            }
-            else 
-            {
-                Console.WriteLine("Строка " + X + " - буква или другой символ...");
-                Console.WriteLine(result);
-            }*/
-
             string s;
             Console.Write("Enter string: ");
             s = Console.ReadLine();
